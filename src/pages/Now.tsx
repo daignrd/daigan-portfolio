@@ -41,7 +41,7 @@ export default function Now() {
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-serif font-medium text-[--color-ink]">Advising & Strategy</h2>
             <p className="text-[--color-ink-light] leading-relaxed">
-              I still do content strategy work for Laser Digital, Nomura's digital asset arm. A few days a week I'm shaping their narrative and ghostwriting thought leadership pieces for the institutional crypto space.
+              I still do content strategy work for Laser Digital, Nomura's digital asset arm. A few days a week I'm shaping their narrative and ghostwriting thought leadership pieces for the institutional digital assets space.
             </p>
           </div>
 

@@ -16,7 +16,7 @@ interface Category {
 
 const list: Category[] = [
     {
-        label: 'Technology & Web3',
+        label: 'Technology & Digital Assets',
         items: [
             {
                 title: 'The Sovereign Individual',

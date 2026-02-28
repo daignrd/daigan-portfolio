@@ -7,16 +7,16 @@ export default function Home() {
     <>
       <Helmet>
         <title>Daigan — Founder. Builder. Thinker.</title>
-        <meta name="description" content="Startup entrepreneur at the intersection of Web3, AI, and emerging technology. Founder of Joy Tech." />
+        <meta name="description" content="Startup entrepreneur at the intersection of digital assets, AI, and emerging technology. Founder of Joy Tech." />
         <meta property="og:title" content="Daigan — Founder. Builder. Thinker." />
-        <meta property="og:description" content="Startup entrepreneur at the intersection of Web3, AI, and emerging technology. Founder of Joy Tech." />
+        <meta property="og:description" content="Startup entrepreneur at the intersection of digital assets, AI, and emerging technology. Founder of Joy Tech." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://daigan.xyz" />
         <meta property="og:image" content="https://daigan.xyz/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@0xDaig" />
         <meta name="twitter:title" content="Daigan — Founder. Builder. Thinker." />
-        <meta name="twitter:description" content="Startup entrepreneur at the intersection of Web3, AI, and emerging technology. Founder of Joy Tech." />
+        <meta name="twitter:description" content="Startup entrepreneur at the intersection of digital assets, AI, and emerging technology. Founder of Joy Tech." />
         <meta name="twitter:image" content="https://daigan.xyz/og-image.png" />
       </Helmet>
 
@@ -41,7 +41,7 @@ export default function Home() {
               Founder. Builder. Thinker.
             </p>
             <p className="text-base leading-relaxed text-[--color-ink-light]">
-              Startup entrepreneur working at the intersection of Web3, AI, and emerging technology.
+              Startup entrepreneur working at the intersection of digital assets, AI, and emerging technology.
               Founder of Joy Tech. Building at the edge of what's possible, and writing about it along the way.
             </p>
             <div className="mt-4">
@@ -58,12 +58,12 @@ export default function Home() {
           <div className="prose prose-lg font-serif text-[--color-ink] leading-relaxed max-w-2xl">
             <p>
               I'm the founder of Joy Tech, where we're building infrastructure for the next generation of digital experiences.
-              My work sits at the edges of Web3 and AI, with a focus on how these technologies actually create value for people.
+              My work sits at the edges of digital assets and AI, with a focus on how these technologies actually create value for people.
             </p>
             <p>
               Right now I'm based in Japan, balancing startup life with a genuine love of language and culture. I'm actively
-              studying for the JLPT and find that the best ideas tend to come from mixing disciplines. Hardware and crypto.
-              Linguistics and systems design. That sort of thing.
+              studying for the JLPT, and I find the best ideas tend to come from mixing disciplines — hardware and digital assets,
+              linguistics and systems design.
             </p>
           </div>
         </section>
@@ -101,7 +101,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[--color-ink-light] leading-relaxed text-sm">
-                Content strategist for Nomura's institutional digital asset arm. I help shape the CEO's public narrative and write thought leadership for institutional crypto audiences.
+                Content strategist for Nomura's institutional digital asset arm. I help shape the CEO's public narrative and write thought leadership for institutional digital asset audiences.
               </p>
             </div>
 
