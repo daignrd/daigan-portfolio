@@ -94,10 +94,10 @@ export default function Home() {
               />
 
               <text className="text-content">
-                <textPath href="#text" startOffset="0%">FOUNDER. BUILDER. THINKER. FOUNDER. BUILDER. THINKER. FOUNDER. BUILDER. THINKER. FOUNDER. BUILDER. THINKER.
+                <textPath href="#text" startOffset="0%">✦ FOUNDER. BUILDER. THINKER. ✦ FOUNDER. BUILDER. THINKER. ✦ FOUNDER. BUILDER. THINKER.
                   <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
                 </textPath>
-                <textPath href="#text" startOffset="100%">FOUNDER. BUILDER. THINKER. FOUNDER. BUILDER. THINKER. FOUNDER. BUILDER. THINKER. FOUNDER. BUILDER. THINKER.
+                <textPath href="#text" startOffset="100%">✦ FOUNDER. BUILDER. THINKER. ✦ FOUNDER. BUILDER. THINKER. ✦ FOUNDER. BUILDER. THINKER.
                   <animate attributeName="startOffset" from="-100%" to="0%" dur="20s" repeatCount="indefinite" />
                 </textPath>
               </text>
