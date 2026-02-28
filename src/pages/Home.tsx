@@ -42,7 +42,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl font-serif italic text-[--color-ink-light]">
                 Founder. Builder. Thinker.
               </p>
-              <p className="text-base leading-relaxed text-[--color-ink-light]">
+              <p className="text-lg leading-relaxed text-[--color-ink-light]">
                 Startup entrepreneur working at the intersection of digital assets, AI, and emerging technology.
                 Founder of Joy Tech. Building at the edge of what's possible, and writing about it along the way.
               </p>
@@ -72,7 +72,7 @@ export default function Home() {
         {/* About Section */}
         <section className="flex flex-col gap-6">
           <h2 className="text-sm font-medium tracking-widest uppercase text-[--color-ink-light] mb-4">About</h2>
-          <div className="prose prose-lg font-serif text-[--color-ink] leading-relaxed max-w-2xl">
+          <div className="font-serif text-lg text-[--color-ink] leading-relaxed max-w-2xl flex flex-col gap-4">
             <p>
               I'm the founder of Joy Tech, where we're building infrastructure for the next generation of digital experiences.
               My work sits at the edges of digital assets and AI, with a focus on how these technologies actually create value for people.
@@ -95,13 +95,13 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-2xl font-serif font-medium text-[--color-ink]">Joy Tech</h3>
-                  <p className="text-sm text-[--color-ink-light] mt-1">Founder & CEO</p>
+                  <p className="text-base text-[--color-ink-light] mt-1">Founder & CEO</p>
                 </div>
                 <span className="inline-flex items-center px-3 py-1 rounded-full bg-[--color-bg-warm] text-xs font-medium text-[--color-ink-light] border border-[--color-ink]/10">
                   Flagship Project
                 </span>
               </div>
-              <p className="text-[--color-ink-light] leading-relaxed mb-6">
+              <p className="text-base text-[--color-ink-light] leading-relaxed mb-6">
                 Building JOY Genesis, the world's first GameFi hardware console. We're making physical devices and digital ownership feel like one thing.
               </p>
               <a href="https://playonjoy.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-[--color-ink] group-hover:text-[--color-accent] transition-colors">
@@ -114,10 +114,10 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-xl font-serif font-medium text-[--color-ink]">Laser Digital</h3>
-                  <p className="text-sm text-[--color-ink-light] mt-1">Content Strategy</p>
+                  <p className="text-base text-[--color-ink-light] mt-1">Content Strategy</p>
                 </div>
               </div>
-              <p className="text-[--color-ink-light] leading-relaxed text-sm">
+              <p className="text-[--color-ink-light] leading-relaxed text-base">
                 Content strategy for Laser Digital, Nomura's institutional digital asset arm. Shaped the CEO's public narrative and built thought leadership content for senior audiences across the institutional digital assets space.
               </p>
             </div>
@@ -127,10 +127,10 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-xl font-serif font-medium text-[--color-ink]">The Japan Chapter</h3>
-                  <p className="text-sm text-[--color-ink-light] mt-1">Personal Pursuit</p>
+                  <p className="text-base text-[--color-ink-light] mt-1">Personal Pursuit</p>
                 </div>
               </div>
-              <p className="text-[--color-ink-light] leading-relaxed text-sm">
+              <p className="text-[--color-ink-light] leading-relaxed text-base">
                 Living in Japan and studying the language seriously. I'm working towards my next JLPT level and find the whole process of language acquisition genuinely fascinating as a systems challenge.
               </p>
             </div>

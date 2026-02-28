@@ -34,7 +34,7 @@ export default function Now() {
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-serif font-medium text-[--color-ink]">Building Joy Tech</h2>
             <p className="text-[--color-ink-light] leading-relaxed">
-              Joy Tech is where most of my time and energy is going right now. We're deep in building JOY Genesis, refining the hardware prototypes, and figuring out how to make a GameFi ecosystem that actually works. It's hard, but that's kind of the point.
+              Joy Tech is where much of my time and energy is going right now. We're deep in building JOY Genesis, refining the hardware prototypes, and figuring out how to make a GameFi ecosystem that actually works. It's hard, but that's kind of the point.
             </p>
           </div>
 
