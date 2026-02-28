@@ -104,7 +104,7 @@ h6 {
 }
 
 .text-content {
-  font: 700 7.5px/1.2 var(--font-sans);
+  font: 700 7.9px/1.2 var(--font-sans);
   letter-spacing: 1.5px;
   text-transform: uppercase;
   fill: var(--color-ink);
