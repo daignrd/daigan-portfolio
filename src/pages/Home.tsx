@@ -127,7 +127,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 gap-6">
             {/* Joy Tech - Lead Card */}
-            <div className="group relative bg-white p-8 rounded-3xl shadow-sm border border-[--color-ink]/5 hover:shadow-md transition-all duration-300">
+            <div className="group relative bg-[--color-surface] p-8 rounded-3xl shadow-sm border border-[--color-ink]/5 hover:shadow-md transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-2xl font-serif font-medium text-[--color-ink]">Joy Tech</h3>
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
 
             {/* Laser Digital - Secondary Card */}
-            <div className="group relative bg-transparent p-8 rounded-3xl border border-[--color-ink]/10 hover:bg-white hover:shadow-sm transition-all duration-300">
+            <div className="group relative bg-transparent p-8 rounded-3xl border border-[--color-ink]/10 hover:bg-[--color-surface] hover:shadow-sm transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-xl font-serif font-medium text-[--color-ink]">Laser Digital</h3>
@@ -159,7 +159,7 @@ export default function Home() {
             </div>
 
             {/* Japan / JLPT - Lifestyle Card */}
-            <div className="group relative bg-transparent p-8 rounded-3xl border border-[--color-ink]/10 hover:bg-white hover:shadow-sm transition-all duration-300">
+            <div className="group relative bg-transparent p-8 rounded-3xl border border-[--color-ink]/10 hover:bg-[--color-surface] hover:shadow-sm transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-xl font-serif font-medium text-[--color-ink]">The Japan Chapter</h3>

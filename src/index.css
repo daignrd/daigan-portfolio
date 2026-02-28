@@ -9,7 +9,22 @@
   --color-ink: #1a1a1a;
   --color-ink-light: #4a4a4a;
   --color-accent: #d94f33;
+  --color-surface: #ffffff;
   /* A warm, muted terracotta/orange */
+}
+
+@layer base {
+  .dark {
+    --color-bg-warm: #161615;
+    /* Subtly warm off-black background */
+    --color-ink: #fcfbf9;
+    /* Warm white text */
+    --color-ink-light: #a3a3a3;
+    /* Muted gray for light text */
+    --color-accent: #e55e40;
+    /* Slightly more vibrant terracotta for dark mode */
+    --color-surface: #1e1e1d;
+  }
 }
 
 body {

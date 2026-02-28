@@ -1,5 +1,6 @@
 import { Link, Outlet } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 
 export default function Layout() {
   return (
@@ -8,11 +9,15 @@ export default function Layout() {
         <Link to="/" className="font-serif text-2xl font-medium tracking-tight hover:opacity-70 transition-opacity">
           Daigan
         </Link>
-        <nav className="flex items-center gap-6 text-sm font-medium tracking-wide uppercase text-[--color-ink-light]">
-          <Link to="/" className="hover:text-[--color-ink] transition-colors">Home</Link>
-          <Link to="/now" className="hover:text-[--color-ink] transition-colors">Now</Link>
-          <Link to="/reading" className="hover:text-[--color-ink] transition-colors">Reading</Link>
-        </nav>
+        <div className="flex items-center gap-6">
+          <nav className="flex items-center gap-4 md:gap-6 text-sm font-medium tracking-wide uppercase text-[--color-ink-light]">
+            <Link to="/" className="hover:text-[--color-ink] transition-colors">Home</Link>
+            <Link to="/now" className="hover:text-[--color-ink] transition-colors">Now</Link>
+            <Link to="/reading" className="hover:text-[--color-ink] transition-colors">Reading</Link>
+          </nav>
+          <div className="w-px h-4 bg-[--color-ink]/20 hidden md:block" />
+          <ThemeToggle />
+        </div>
       </header>
 
       <main className="flex-grow">

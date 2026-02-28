@@ -62,11 +62,11 @@ const list: Category[] = [
 ];
 
 const typeColors: Record<Item['type'], string> = {
-    Book: 'bg-amber-50 text-amber-700 border-amber-200',
-    Essay: 'bg-sky-50 text-sky-700 border-sky-200',
-    Film: 'bg-violet-50 text-violet-700 border-violet-200',
-    Podcast: 'bg-emerald-50 text-emerald-700 border-emerald-200',
-    Game: 'bg-rose-50 text-rose-700 border-rose-200',
+    Book: 'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-500/10 dark:text-amber-400 dark:border-amber-500/20',
+    Essay: 'bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-500/10 dark:text-sky-400 dark:border-sky-500/20',
+    Film: 'bg-violet-50 text-violet-700 border-violet-200 dark:bg-violet-500/10 dark:text-violet-400 dark:border-violet-500/20',
+    Podcast: 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-400 dark:border-emerald-500/20',
+    Game: 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-500/10 dark:text-rose-400 dark:border-rose-500/20',
 };
 
 export default function Reading() {
@@ -108,7 +108,7 @@ export default function Reading() {
                                 {category.items.map((item) => (
                                     <div
                                         key={item.title}
-                                        className="group flex flex-col gap-2 p-6 rounded-2xl border border-[--color-ink]/8 hover:bg-white hover:shadow-sm transition-all duration-300"
+                                        className="group flex flex-col gap-2 p-6 rounded-2xl border border-[--color-ink]/8 hover:bg-[--color-surface] hover:shadow-sm transition-all duration-300"
                                     >
                                         <div className="flex items-start justify-between gap-4">
                                             <div className="flex flex-col gap-1">

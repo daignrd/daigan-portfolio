@@ -1,30 +1,45 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daigan | Founder. Builder. Thinker.</title>
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta name="description" content="Personal brand home for Daigan - Founder of Joy Tech, technologist, and creative." />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://daigan.xyz/" />
-    <meta property="og:title" content="Daigan | Founder. Builder. Thinker." />
-    <meta property="og:description" content="Personal brand home for Daigan - Founder of Joy Tech, technologist, and creative." />
-    <meta property="og:image" content="https://daigan.xyz/og-image.jpg" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://daigan.xyz/" />
-    <meta property="twitter:title" content="Daigan | Founder. Builder. Thinker." />
-    <meta property="twitter:description" content="Personal brand home for Daigan - Founder of Joy Tech, technologist, and creative." />
-    <meta property="twitter:image" content="https://daigan.xyz/og-image.jpg" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daigan | Founder. Builder. Thinker.</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="description"
+    content="Personal brand home for Daigan - Founder of Joy Tech, technologist, and creative." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://daigan.xyz/" />
+  <meta property="og:title" content="Daigan | Founder. Builder. Thinker." />
+  <meta property="og:description"
+    content="Personal brand home for Daigan - Founder of Joy Tech, technologist, and creative." />
+  <meta property="og:image" content="https://daigan.xyz/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://daigan.xyz/" />
+  <meta property="twitter:title" content="Daigan | Founder. Builder. Thinker." />
+  <meta property="twitter:description"
+    content="Personal brand home for Daigan - Founder of Joy Tech, technologist, and creative." />
+  <meta property="twitter:image" content="https://daigan.xyz/og-image.jpg" />
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme');
+        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) { }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
-
