@@ -34,21 +34,21 @@ export default function Now() {
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-serif font-medium text-[--color-ink]">Building Joy Tech</h2>
             <p className="text-[--color-ink-light] leading-relaxed">
-              My primary focus is Joy Tech. We are heads down building JOY Genesis, refining the hardware prototypes, and expanding our GameFi ecosystem. The intersection of physical hardware and digital economies is proving to be as challenging as it is exciting.
+              Joy Tech is where most of my time and energy is going right now. We're deep in building JOY Genesis, refining the hardware prototypes, and figuring out how to make a GameFi ecosystem that actually works. It's hard, but that's kind of the point.
             </p>
           </div>
 
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-serif font-medium text-[--color-ink]">Advising & Strategy</h2>
             <p className="text-[--color-ink-light] leading-relaxed">
-              Continuing my work as a content strategist for Laser Digital (Nomura). I spend a portion of my week shaping narratives for institutional digital assets and ghostwriting thought leadership.
+              I still do content strategy work for Laser Digital, Nomura's digital asset arm. A few days a week I'm shaping their narrative and ghostwriting thought leadership pieces for the institutional crypto space.
             </p>
           </div>
 
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-serif font-medium text-[--color-ink]">Life in Japan</h2>
             <p className="text-[--color-ink-light] leading-relaxed">
-              Living in Japan and actively studying for the next level of the JLPT. Treating language acquisition as a daily discipline. It provides a great mental counterbalance to startup building.
+              Living in Japan and genuinely loving it. I study Japanese every day and I'm working towards my next JLPT level. There's something nice about having a completely different kind of challenge to sink your teeth into alongside the startup work.
             </p>
           </div>
         </section>

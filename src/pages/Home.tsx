@@ -41,8 +41,8 @@ export default function Home() {
               Founder. Builder. Thinker.
             </p>
             <p className="text-base leading-relaxed text-[--color-ink-light]">
-              Startup entrepreneur at the intersection of Web3, AI, and emerging technology.
-              Founder of Joy Tech. Building things at the edge of what's possible — and writing about it.
+              Startup entrepreneur working at the intersection of Web3, AI, and emerging technology.
+              Founder of Joy Tech. Building at the edge of what's possible, and writing about it along the way.
             </p>
             <div className="mt-4">
               <a href="#work" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[--color-ink] text-[--color-bg-warm] text-sm font-medium hover:bg-[--color-accent] transition-colors duration-300">
@@ -57,13 +57,13 @@ export default function Home() {
           <h2 className="text-sm font-medium tracking-widest uppercase text-[--color-ink-light] mb-4">About</h2>
           <div className="prose prose-lg font-serif text-[--color-ink] leading-relaxed max-w-2xl">
             <p>
-              I'm the founder of Joy Tech, where we're building the infrastructure for the next generation of digital experiences.
-              My work lives at the edges of Web3 and AI, focusing on how these technologies can create tangible value.
+              I'm the founder of Joy Tech, where we're building infrastructure for the next generation of digital experiences.
+              My work sits at the edges of Web3 and AI, with a focus on how these technologies actually create value for people.
             </p>
             <p>
-              Currently based in Japan, I balance building companies with a deep dive into language learning and culture,
-              actively studying for the JLPT. I believe the best ideas come from cross-pollinating disciplines—whether that's
-              hardware and crypto, or linguistics and systems design.
+              Right now I'm based in Japan, balancing startup life with a genuine love of language and culture. I'm actively
+              studying for the JLPT and find that the best ideas tend to come from mixing disciplines. Hardware and crypto.
+              Linguistics and systems design. That sort of thing.
             </p>
           </div>
         </section>
@@ -85,7 +85,7 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-[--color-ink-light] leading-relaxed mb-6">
-                Building JOY Genesis, the world's first GameFi hardware console. Bridging the gap between physical devices and digital ownership.
+                Building JOY Genesis, the world's first GameFi hardware console. We're making physical devices and digital ownership feel like one thing.
               </p>
               <a href="https://playonjoy.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-[--color-ink] group-hover:text-[--color-accent] transition-colors">
                 Visit Project <ArrowRight className="w-4 h-4" />
@@ -101,7 +101,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[--color-ink-light] leading-relaxed text-sm">
-                Content strategist for Nomura's institutional digital asset firm. Driving CEO thought leadership and high-level narrative for institutional crypto.
+                Content strategist for Nomura's institutional digital asset arm. I help shape the CEO's public narrative and write thought leadership for institutional crypto audiences.
               </p>
             </div>
 
@@ -114,7 +114,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[--color-ink-light] leading-relaxed text-sm">
-                Independent study of the Japanese language, actively preparing for JLPT exams. Treating language acquisition as a systems engineering challenge.
+                Living in Japan and studying the language seriously. I'm working towards my next JLPT level and find the whole process of language acquisition genuinely fascinating as a systems challenge.
               </p>
             </div>
           </div>

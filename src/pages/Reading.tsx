@@ -22,19 +22,19 @@ const list: Category[] = [
                 title: 'The Sovereign Individual',
                 author: 'James Dale Davidson & William Rees-Mogg',
                 type: 'Book',
-                note: "Written in 1997. Still the most prescient framework for understanding how digital networks reshape power and finance.",
+                note: "Written in 1997. It still holds up as probably the best framework I've found for understanding what digital networks actually do to power and money.",
             },
             {
                 title: 'Zero to One',
                 author: 'Peter Thiel',
                 type: 'Book',
-                note: "The clearest articulation of what it means to build something genuinely new rather than incremental.",
+                note: "The clearest thing I've read on what it actually means to build something new rather than just iterating on what exists.",
             },
             {
                 title: 'The Network State',
                 author: 'Balaji Srinivasan',
                 type: 'Book',
-                note: "A bold thesis on how online communities could evolve into new forms of political organisation.",
+                note: "A bold thesis on how online communities might evolve into something closer to sovereign entities. Free to read online and worth the time.",
                 url: 'https://thenetworkstate.com',
             },
         ],
@@ -46,13 +46,13 @@ const list: Category[] = [
                 title: 'Remembering the Kanji',
                 author: 'James W. Heisig',
                 type: 'Book',
-                note: "The most effective system for learning kanji — treats them as modular vocabulary, not rote memorisation. The book that finally made the writing system click.",
+                note: "The book that finally made kanji click for me. It treats them as building blocks rather than things to memorise, which changes everything.",
             },
             {
                 title: 'The Art of Learning',
                 author: 'Josh Waitzkin',
                 type: 'Book',
-                note: "Less about chess or tai chi, more about the meta-skill of learning itself. Changed how I approach JLPT prep.",
+                note: "Technically about chess and tai chi, but really about how to get good at learning things. Changed how I approach studying Japanese.",
             },
         ],
     },
@@ -63,13 +63,13 @@ const list: Category[] = [
                 title: "Poor Charlie's Almanack",
                 author: 'Charlie Munger',
                 type: 'Book',
-                note: "Mental models as a competitive advantage. The inversion principle alone is worth the read.",
+                note: "Charlie Munger on how to actually think well. The inversion principle alone makes it worth picking up.",
             },
             {
                 title: 'High Output Management',
                 author: 'Andy Grove',
                 type: 'Book',
-                note: "The operating manual for building teams. Written for Intel; applies universally.",
+                note: "Probably the most practical book on running teams I've found. Written for Intel managers but honestly applies everywhere.",
             },
         ],
     },
@@ -108,7 +108,7 @@ export default function Reading() {
                         Reading & Watching
                     </h1>
                     <p className="text-[--color-ink-light] font-serif italic text-lg max-w-xl">
-                        Books, essays, and ideas that have shaped how I think about technology, language, and building.
+                        Things I've read and found genuinely useful. A mix of tech, language, business, and whatever else caught my attention.
                     </p>
                 </header>
 
