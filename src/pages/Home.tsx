@@ -22,33 +22,50 @@ export default function Home() {
 
       <div className="flex flex-col gap-32">
         {/* Hero Section */}
-        <section className="flex flex-col gap-6 pt-10">
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-            className="text-6xl md:text-8xl font-serif font-light tracking-tight text-[--color-ink]"
-          >
-            Daigan
-          </motion.h1>
+        <section className="flex flex-col md:flex-row md:items-end justify-between gap-10 pt-10">
+          {/* Text side */}
+          <div className="flex flex-col gap-6 flex-1">
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+              className="text-6xl md:text-8xl font-serif font-light tracking-tight text-[--color-ink]"
+            >
+              Daigan
+            </motion.h1>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
+              className="flex flex-col gap-4 max-w-xl"
+            >
+              <p className="text-xl md:text-2xl font-serif italic text-[--color-ink-light]">
+                Founder. Builder. Thinker.
+              </p>
+              <p className="text-base leading-relaxed text-[--color-ink-light]">
+                Startup entrepreneur working at the intersection of digital assets, AI, and emerging technology.
+                Founder of Joy Tech. Building at the edge of what's possible, and writing about it along the way.
+              </p>
+              <div className="mt-4">
+                <a href="#work" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[--color-ink] text-[--color-bg-warm] text-sm font-medium hover:bg-[--color-accent] transition-colors duration-300">
+                  See my work ↓
+                </a>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Portrait */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col gap-4 max-w-xl"
+            initial={{ opacity: 0, scale: 0.96 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            className="shrink-0 w-48 md:w-56"
           >
-            <p className="text-xl md:text-2xl font-serif italic text-[--color-ink-light]">
-              Founder. Builder. Thinker.
-            </p>
-            <p className="text-base leading-relaxed text-[--color-ink-light]">
-              Startup entrepreneur working at the intersection of digital assets, AI, and emerging technology.
-              Founder of Joy Tech. Building at the edge of what's possible, and writing about it along the way.
-            </p>
-            <div className="mt-4">
-              <a href="#work" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[--color-ink] text-[--color-bg-warm] text-sm font-medium hover:bg-[--color-accent] transition-colors duration-300">
-                See my work ↓
-              </a>
-            </div>
+            <img
+              src="/Daigan Manga Headshot BW 2026.png"
+              alt="Daigan"
+              className="w-full rounded-2xl border border-[--color-ink]/8 grayscale"
+            />
           </motion.div>
         </section>
 
