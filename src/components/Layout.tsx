@@ -22,9 +22,8 @@ export default function Layout() {
       <footer className="mt-32 pt-12 border-t border-[--color-ink]/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 text-sm text-[--color-ink-light]">
         <div className="flex flex-col gap-2">
           <p className="font-serif italic text-lg text-[--color-ink]">Let's build something.</p>
-          <a href="mailto:Daiganis@gmail.com" className="hover:text-[--color-ink] transition-colors underline underline-offset-4">Daiganis@gmail.com</a>
         </div>
-        
+
         <div className="flex items-center gap-6">
           <a href="https://www.linkedin.com/in/daigan-reid/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-[--color-ink] transition-colors">
             LinkedIn <ArrowUpRight className="w-3 h-3" />
