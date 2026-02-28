@@ -114,11 +114,11 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-xl font-serif font-medium text-[--color-ink]">Laser Digital</h3>
-                  <p className="text-sm text-[--color-ink-light] mt-1">Content Strategist</p>
+                  <p className="text-sm text-[--color-ink-light] mt-1">Content Strategy</p>
                 </div>
               </div>
               <p className="text-[--color-ink-light] leading-relaxed text-sm">
-                Content strategist for Nomura's institutional digital asset arm. I help shape the CEO's public narrative and write thought leadership for institutional digital asset audiences.
+                Content strategy for Laser Digital, Nomura's institutional digital asset arm. Shaped the CEO's public narrative and built thought leadership content for senior audiences across the institutional digital assets space.
               </p>
             </div>
 

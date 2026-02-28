@@ -39,13 +39,6 @@ export default function Now() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h2 className="text-xl font-serif font-medium text-[--color-ink]">Advising & Strategy</h2>
-            <p className="text-[--color-ink-light] leading-relaxed">
-              I still do content strategy work for Laser Digital, Nomura's digital asset arm. A few days a week I'm shaping their narrative and ghostwriting thought leadership pieces for the institutional digital assets space.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
             <h2 className="text-xl font-serif font-medium text-[--color-ink]">Life in Japan</h2>
             <p className="text-[--color-ink-light] leading-relaxed">
               Living in Japan and genuinely loving it. I study Japanese every day and I'm working towards my next JLPT level. There's something nice about having a completely different kind of challenge to sink your teeth into alongside the startup work.
