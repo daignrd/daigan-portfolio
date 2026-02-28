@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 interface Item {
     title: string;
     author?: string;
-    type: 'Book' | 'Essay' | 'Film' | 'Podcast' | 'Video';
+    type: 'Book' | 'Essay' | 'Film' | 'Podcast' | 'Game';
     note?: string;
     url?: string;
 }
@@ -16,60 +16,46 @@ interface Category {
 
 const list: Category[] = [
     {
-        label: 'Technology & Digital Assets',
+        label: 'Reading',
         items: [
             {
                 title: 'The Sovereign Individual',
                 author: 'James Dale Davidson & William Rees-Mogg',
                 type: 'Book',
-                note: "Written in 1997. It still holds up as probably the best framework I've found for understanding what digital networks actually do to power and money.",
+                note: "Written in 1997. Still holds up as probably the best framework I've found for understanding what digital networks actually do to power and money.",
             },
             {
-                title: 'Zero to One',
-                author: 'Peter Thiel',
+                title: 'The Almanac of Naval Ravikant',
+                author: 'Eric Jorgenson',
                 type: 'Book',
-                note: "The clearest thing I've read on what it actually means to build something new rather than just iterating on what exists.",
+                note: "A collection of Naval's thinking on wealth, happiness, and how to live. The kind of book you return to rather than finish.",
             },
             {
-                title: 'The Network State',
-                author: 'Balaji Srinivasan',
+                title: 'Fluent Forever',
+                author: 'Gabriel Wyner',
                 type: 'Book',
-                note: "A bold thesis on how online communities might evolve into something closer to sovereign entities. Free to read online and worth the time.",
-                url: 'https://thenetworkstate.com',
-            },
-        ],
-    },
-    {
-        label: 'Language & Culture',
-        items: [
-            {
-                title: 'Remembering the Kanji',
-                author: 'James W. Heisig',
-                type: 'Book',
-                note: "The book that finally made kanji click for me. It treats them as building blocks rather than things to memorise, which changes everything.",
+                note: "The most practical book I've found on language learning. Wyner dismantles how most people study and rebuilds it from the ground up. Directly applicable to learning Japanese.",
             },
             {
-                title: 'The Art of Learning',
-                author: 'Josh Waitzkin',
+                title: 'The Book of Laughter and Forgetting',
+                author: 'Milan Kundera',
                 type: 'Book',
-                note: "Technically about chess and tai chi, but really about how to get good at learning things. Changed how I approach studying Japanese.",
+                note: "Part novel, part essay, part something else entirely. Kundera on memory, history, and what it means to forget. One of those books that changes how you think about storytelling.",
             },
         ],
     },
     {
-        label: 'Business & Strategy',
+        label: 'Gaming in Japanese',
         items: [
             {
-                title: "Poor Charlie's Almanack",
-                author: 'Charlie Munger',
-                type: 'Book',
-                note: "Charlie Munger on how to actually think well. The inversion principle alone makes it worth picking up.",
+                title: 'Clair Obscur: Expedition 33',
+                type: 'Game',
+                note: "Playing through in Japanese as immersive reading practice. The turn-based combat gives you time to actually process the text rather than skip it. Beautifully written game.",
             },
             {
-                title: 'High Output Management',
-                author: 'Andy Grove',
-                type: 'Book',
-                note: "Probably the most practical book on running teams I've found. Written for Intel managers but honestly applies everywhere.",
+                title: 'Ace Attorney Series',
+                type: 'Game',
+                note: "Probably the best language learning game I've found — wall-to-wall dialogue, courtroom Japanese, and character quirks that make vocabulary stick. Working through the series in Japanese from the beginning.",
             },
         ],
     },
@@ -80,7 +66,7 @@ const typeColors: Record<Item['type'], string> = {
     Essay: 'bg-sky-50 text-sky-700 border-sky-200',
     Film: 'bg-violet-50 text-violet-700 border-violet-200',
     Podcast: 'bg-emerald-50 text-emerald-700 border-emerald-200',
-    Video: 'bg-rose-50 text-rose-700 border-rose-200',
+    Game: 'bg-rose-50 text-rose-700 border-rose-200',
 };
 
 export default function Reading() {
@@ -88,9 +74,9 @@ export default function Reading() {
         <>
             <Helmet>
                 <title>Reading — Daigan</title>
-                <meta name="description" content="Books, essays, and ideas that have shaped how Daigan thinks about technology, language, and building." />
+                <meta name="description" content="Books and games that are shaping how Daigan thinks and learns — including playing games in Japanese." />
                 <meta property="og:title" content="Reading — Daigan" />
-                <meta property="og:description" content="Books, essays, and ideas that have shaped how Daigan thinks." />
+                <meta property="og:description" content="Books and games that are shaping how Daigan thinks and learns." />
                 <meta property="og:url" content="https://daigan.xyz/reading" />
                 <meta property="og:image" content="https://daigan.xyz/og-image.png" />
                 <meta name="twitter:card" content="summary_large_image" />
@@ -105,10 +91,10 @@ export default function Reading() {
             >
                 <header className="flex flex-col gap-4">
                     <h1 className="text-4xl md:text-5xl font-serif font-medium text-[--color-ink] leading-tight">
-                        Reading & Watching
+                        Reading & Playing
                     </h1>
                     <p className="text-[--color-ink-light] font-serif italic text-lg max-w-xl">
-                        Things I've read and found genuinely useful. A mix of tech, language, business, and whatever else caught my attention.
+                        Things I'm reading and games I'm playing — a lot of the gaming is in Japanese, which is its own kind of studying.
                     </p>
                 </header>
 
@@ -147,7 +133,7 @@ export default function Reading() {
                                             </span>
                                         </div>
                                         {item.note && (
-                                            <p className="text-sm text-[--color-ink-light] leading-relaxed mt-1">{item.note}</p>
+                                            <p className="text-base text-[--color-ink-light] leading-relaxed mt-1">{item.note}</p>
                                         )}
                                     </div>
                                 ))}
