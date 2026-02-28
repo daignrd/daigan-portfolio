@@ -67,3 +67,39 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-ink-light);
   margin-bottom: 1.5rem;
 }
+
+/* Blob Portrait Styles */
+.blob-portrait-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blob-portrait {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: visible;
+}
+
+.blob-portrait #blobClip {
+  transform-origin: center;
+  transition: ease-out transform .4s;
+}
+
+.blob-portrait:hover #blobClip {
+  transform: scale(1.15) translate(0%, 0%);
+}
+
+.blob-portrait:hover .text-content {
+  fill: white;
+  mix-blend-mode: overlay;
+}
+
+.text-content {
+  font: 700 8.5px/1.2 var(--font-sans);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  fill: var(--color-ink);
+  mix-blend-mode: normal;
+  transition: ease fill .5s;
+}
